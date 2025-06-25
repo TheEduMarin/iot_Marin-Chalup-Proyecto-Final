@@ -1,0 +1,1 @@
+SELECT topic(3) AS thing_name, timestamp() AS timestamp, state.reported.gateState AS gateState, state.reported.vehiclePassed AS vehiclePassed, state.reported.lastSpeedDetected AS lastSpeedDetected, state.reported.speedLimit AS speedLimit FROM '$aws/things/+/shadow/update' WHERE state.reported.lastSpeedDetected > 0

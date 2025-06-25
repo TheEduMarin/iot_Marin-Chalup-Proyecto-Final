@@ -1,0 +1,62 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "rompemuelles inteligente",
+            "intents": [
+                {
+                    "name": "GetSpeedIntent",
+                    "slots": [],
+                    "samples": [
+                        "cuál es la última velocidad detectada",
+                        "dime la última velocidad",
+                        "qué velocidad detectó",
+                        "velocidad actual",
+                        "velocidad del sensor",
+                        "consulta velocidad",
+                        "sube el rompe muelles",
+                        "haz que se levante",
+                        "activa la barrera",
+                        "rompe muelles arriba"
+                    ]
+                },
+                {
+                    "name": "OpenGateIntent",
+                    "slots": [],
+                    "samples": [
+                        "abre el rompe muelles",
+                        "levanta el rompe muelles",
+                        "activar rompe muelles",
+                        "abrir rompe muelles"
+                    ]
+                },
+                {
+                    "name": "CloseGateIntent",
+                    "slots": [],
+                    "samples": [
+                        "baja el rompe muelles",
+                        "cierra el rompe muelles",
+                        "desactivar rompe muelles",
+                        "cerrar rompe muelles"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}

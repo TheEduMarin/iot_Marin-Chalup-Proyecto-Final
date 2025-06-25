@@ -1,0 +1,5 @@
+SELECT topic(3) AS thing_name, 'open' AS gateState 
+FROM '$aws/things/+/shadow/update'
+WHERE state.reported.lastSpeedDetected > state.reported.speedLimit
+  AND state.reported.gateState = "close"
+  AND NOT exists(state.desired.gateState)

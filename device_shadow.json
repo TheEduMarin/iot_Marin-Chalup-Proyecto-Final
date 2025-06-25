@@ -1,0 +1,15 @@
+{
+  "state": {
+    "desired": {
+      "welcome": "aws-iot",
+      "speedLimit": 20
+    },
+    "reported": {
+      "welcome": "aws-iot",
+      "gateState": "close",
+      "vehiclePassed": true,
+      "lastSpeedDetected": 29,
+      "speedLimit": 20
+    }
+  }
+}
